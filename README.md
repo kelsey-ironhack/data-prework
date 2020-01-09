@@ -14,7 +14,7 @@ This repository contains the prework for the Ironhack Data Analytics Bootcamp.
 
 Before starting with the challenges, read the Prework lessons in LMS (Ironhack's student platform) and make sure you've installed all the required software. To complete the Prework exercises, you will mainly need Python 3 and Jupyter Notebook. 
 
-To get started, fork the `data-prework` repository (this repository) and clone it to your local file system. Navigate to the repository directory using the command line and then, start Jupyter Notebook.
+To get started, fork this repository and clone it to your local file system. Navigate to the repository directory using the command line and then, start Jupyter Notebook.
 
 In the repository, you will find two directories: Python and Statistics. 
 
