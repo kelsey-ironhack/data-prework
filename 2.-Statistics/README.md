@@ -6,7 +6,7 @@ Though data science is in the name, the course teaches the core math upon which 
 The completion of this course is essential for you to be ready for the statistical module of Ironhack's bootcamp.
 That is the reason why you are asked to submit all the `Practice Exercises` and `Quizes` you will find in the `Data Science Math Skills` course. 
 
-Watch the lesson videos, read the recommended articles and when you feel ready, complete the practice exercises and quizes for each week. When you are done, take screenshots of all the solved exercises and save them for later submission. 
+**Watch the lesson videos, read the recommended articles and when you feel ready, complete the practice exercises and quizes for each week. When you are done, take screenshots of all the solved exercises and save them for later submission.** 
 
 Here's the complete list of exercises you need to deliver:
 
