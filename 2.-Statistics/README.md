@@ -1,4 +1,4 @@
-# Statistics
+x# Statistics
 The statistics challenge consists of completing the `Data Science Math Skills` course in Coursera, offered by Duke University. 
 
 Though data science is in the name, the course teaches the core math upon which both data science and data analytics are built. You'll learn about set theory, math notation, probability theory, etc. The expected duration of the course is 15 hours and you can enroll in it for free. 
