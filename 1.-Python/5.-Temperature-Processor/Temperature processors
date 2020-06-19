@@ -1,0 +1,42 @@
+temperatures_C = [33, 66, 65, 0, 59, 60, 62, 64, 70, 76, 80, 81, 80, 83, 90, 79, 61, 53, 50, 49, 53, 48, 45, 39]
+min_temp = min(temperatures_C)
+min_temp
+
+max_temp = max (temperatures_C)
+max_temp
+
+temp_sup_70 = []
+for x in temperatures_C:
+	if x >= 70:
+		temp_sup_70.append(x)
+
+temp_sup_70
+
+sum_temp=float(sum(temperatures_C))
+len_temp=float (len(temperatures_C))
+
+avg_temp = float(sum_temp/len_temp)
+avg_temp
+
+value_0 = temperatures_C[temperatures_C.index(0)-1]
+value_2 = temperatures_C[temperatures_C.index(0)+1]
+avg_temp_failure = (value_0+value_2)/2
+
+for x in temperatures_C:
+	if x == 0:
+		temperatures_C.insert(temperatures_C.index(0),avg_temp_failure)
+		temperatures_C.remove(0)
+
+temperatures_C
+print "the temperature value is", avg_temp_failure
+
+temperatures_F =[]
+for i in temperatures_C:
+	i = int(1.8*int(i) + 32)
+	temperatures_F.append(i)
+
+temperatures_F
+
+if len(temp_sup_70) >= 4 or max_temp > 80 or avg_temp>65:
+	print "the cooling system needs to be changed"
+
