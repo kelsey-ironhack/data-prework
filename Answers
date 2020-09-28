@@ -19,3 +19,28 @@ print (days_to_leave_ok)
 for days in range (1,days_to_leave_ok+1):
 
 print (days)
+
+
+2) 
+
+well_height= 125
+daily_distance = [30, 21, 33, 77, 44, 45, 23, 45, 12, 34, 55]
+nightly_distance=-20
+accumulated_dist = 0
+day_accum= 0
+
+print(max(daily_distance))
+
+print(min(daily_distance))
+
+
+print(sum(daily_distance)/len(daily_distance))
+
+import statistics
+
+print(statistics.stdev(daily_distance))
+
+while accumulated_dist < well_height:
+	day_accum+=1
+accumulated_dist+= daily_distance
+print (“Days”,day_accum,” accumulated_dist”, accumulated_dist)
