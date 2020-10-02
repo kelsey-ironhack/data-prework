@@ -152,6 +152,13 @@
     "l=l/y\n",
     "print(\"la desviacion estandar es \",math.sqrt(l))"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {

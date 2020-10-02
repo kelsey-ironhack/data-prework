@@ -28,7 +28,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -53,7 +53,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -69,7 +69,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -85,16 +85,14 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
    "source": [
     "Temp_hight=[]\n",
     "x=len(temperatures_C)\n",
     "for i in range (0,x):\n",
-    "    if temperatures_C[i]>= 70:\n",
-    "        Temp_hight.append(temperatures_C[i])\n",
-    "print(Temp_hight)"
+    "    if temperatures_C[i]>="
    ]
   },
   {
@@ -106,13 +104,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": [
-    "m=sum(temperatures_C)/len(temperatures_C)\n",
-    "print(m)"
-   ]
+   "source": []
   },
   {
    "cell_type": "markdown",
@@ -123,17 +118,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": [
-    "#sumaria la tempreatura de la hora anterios con la hora posterior y lo diviria entre 2 para usar esa media como la temperatura faltante\n",
-    "\n",
-    "temp_3am= int((temperatures_C[2]+temperatures_C[4])/2)\n",
-    "temperatures_C.remove(0)\n",
-    "temperatures_C.insert(3,temp_3am)\n",
-    "print(temperatures_C)"
-   ]
+   "source": []
   },
   {
    "cell_type": "markdown",
@@ -149,16 +137,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": [
-    "Temp_F=[]\n",
-    "x=len(temperatures_C)\n",
-    "for k in range (0,x):\n",
-    "    Temp_F.append(1.8*temperatures_C[k]+32)\n",
-    "print(Temp_F)"
-   ]
+   "source": []
   },
   {
    "cell_type": "markdown",
@@ -177,18 +159,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": [
-    "j=0\n",
-    "i=0\n",
-    "while j==0:\n",
-    "    if m>65 or Temp_hight[i] > 80 or len(Temp_hight)>4:\n",
-    "        j=\"el sistema debe cambiarse\"\n",
-    "        print(j)\n",
-    "    i+=1"
-   ]
+   "source": []
   },
   {
    "cell_type": "markdown",
@@ -210,17 +184,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": [
-    "Horas_Temp_hight=[]\n",
-    "x=len(temperatures_C)\n",
-    "for i in range (0,x):\n",
-    "    if temperatures_C[i]>= 70:\n",
-    "        Horas_Temp_hight.append(i)\n",
-    "print(Horas_Temp_hight)"
-   ]
+   "source": []
   },
   {
    "cell_type": "markdown",
@@ -231,21 +198,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": [
-    "i=0\n",
-    "horas_contecutivas =0\n",
-    "while horas_contecutivas <= 4:\n",
-    "    if Horas_Temp_hight[i+1]-Horas_Temp_hight[i]== 1:\n",
-    "        horas_contecutivas +=1\n",
-    "    elif Horas_Temp_hight[i+1]-Horas_Temp_hight[i] !=1:\n",
-    "        horas_contecutivas =0\n",
-    "    i+=1\n",
-    "print(horas_contecutivas)\n",
-    "        "
-   ]
+   "source": []
   },
   {
    "cell_type": "markdown",
@@ -257,18 +213,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": [
-    "j=0\n",
-    "i=0\n",
-    "while j==0:\n",
-    "    if m>65 or Temp_hight[i] > 80 or horas_contecutivas>4:\n",
-    "        j=\"el sistema debe cambiarse\"\n",
-    "        print(j)\n",
-    "    i+=1"
-   ]
+   "source": []
   },
   {
    "cell_type": "markdown",
@@ -279,18 +227,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": [
-    "m_F=sum(Temp_F)/len(Temp_F)\n",
-    "relacion=0\n",
-    "print(\"la temperatura promedio en grados Celsius es\",m,\"ºC\")\n",
-    "print(\"la temperatura promedio en grados Fahrenheit es\",m_F,\"F\")\n",
-    "#referente a la relacion podriamos dividir el valor de celsion entre el fahrenheit y asi obterner una relacion numerical manera que con saber un dato podremos terner el otro.\n",
-    "relacion=m/m_F\n",
-    "print(\"la relacion de relacion entre ºC/F es\",m_F)"
-   ]
+   "source": []
   },
   {
    "cell_type": "markdown",
@@ -298,35 +238,6 @@
    "source": [
     "#### 5. Find the standard deviation of the temperature lists (ºC and ºF). What is the relation between both standard deviations?"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 13,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "import math\n",
-    "y=0\n",
-    "c=0\n",
-    "relacion2=0\n",
-    "for p in range (0,k+1):\n",
-    "    c=c+((temperatures_C[p]-m)**2)\n",
-    "    y+=((Temp_F[p]-m_F)**2)\n",
-    "y=y/len(Temp_F)\n",
-    "c=c/len(temperatures_C)\n",
-    "print(\"la desviacion estandar en Fahrenheit es \",math.sqrt(y))\n",
-    "print(\"la desviacion estandar en Celsius es \",math.sqrt(c))\n",
-    "#referente a la relacion podriamos dividir el valor de desviacion de celsion entre la desviacion de fahrenheit y asi obterner una relacion numerica, de tal manera que con saber un dato podremos tener el otro.\n",
-    "relacion2= math.sqrt(c)/ math.sqrt(y)\n",
-    "print(\"la relacion de relacion entre ºC/F es\", relacion2)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
   },
   {
    "cell_type": "code",
