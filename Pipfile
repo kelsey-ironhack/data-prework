@@ -12,6 +12,7 @@ ipykernel = "*"
 pytest = "*"
 numpy = "*"
 pandas = "*"
+jupyterthemes = "*"
 
 [requires]
 python_version = "3.8"
