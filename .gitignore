@@ -3,3 +3,9 @@ test_csv.csv
 test_file.txt
 3.MYSQL/
 .DS_Store
+.idea/data-prework.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
