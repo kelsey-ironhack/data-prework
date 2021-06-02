@@ -1,0 +1,46 @@
+Hi Kevin! 🙋‍♂‍ Here I send you some feedback about your prework 😀 
+
+First of all, I want to congratulate you. You did a really good job with the prework. 
+
+On the following lines I will send you some feedback about the prework exercises. Most of the are not about mistakes, they are proposals in case you would like to make changes in your code.
+
+1 - Snail-and-Well
+
+Bonus: In this case, on the fifth day the snail reaches the 125cm, so if you would have counted 5 using snail_position >= 125 would have also been correct.
+
+The rest is all good 😀 
+
+2 - Duel-of-Sorcerers
+
+In the first exercise you could use the spells variable to save the length of the spells `spells = len(gandalf)`, and use it it as the range in the third exercise. 
+
+I have nothing else to add. 
+
+3 - Bus
+
+All good in these exercises too 😀 
+
+4 - Robin-Hood 
+
+This one is also perfect. As a suggestion, in the last exeercise you could add an empty list to store the points of the arrows that would lie outside the radius of 9. 
+
+5 - Temperature-Processor
+
+It is nice that you already have experience with libraries such Scipy to use the interpolate function. 
+
+In the first exercise of the bonus, there is no need for the 0 in the range (inside the list comprehension), and also the = sign before the 70 can be deleted. 
+
+The rest is perfect. 
+
+6 - Rock-Paper-Scissors
+
+In these exercises it is important to use functions, putting the code inside them so you can call them afterwards. Here I send you some documentation about how the functions work. 
+
+[W3 school - functions documentation](https://www.w3schools.com/python/python_functions.asp) 
+[Real Python - function documentation](https://realpython.com/python-return-statement/#:~:text=The%20Python%20return%20statement%20is%20a%20special%20statement%20that%20you,can%20be%20any%20Python%20object.) 
+
+In the exercise 8, you can put the gestures in a dictionary with all the combinations (the winning gesture as key and the losing gesture as value `{'rock': 'scissors'}`ans so on), and then use them to check the gestures. It would be a similar solution to what you did with the lists in the bonus. 
+
+Again, this was a really good prework. Now enjoy this bootcamp and learn as much as possible 🚀 
+
+<img width=1000 src="./meme_prework.png">
